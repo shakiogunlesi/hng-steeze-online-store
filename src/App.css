@@ -1,0 +1,10 @@
+#root {
+  max-width: 1400px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.price_tag {
+  position: absolute;
+  bottom: 0px;
+}
