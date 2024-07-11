@@ -1,7 +1,8 @@
-import React from 'react';
+import React, { useState } from 'react';
 import ArrowLeft from '../assets/images/arrowleft.png'
 import { Link } from "react-router-dom"
 import Modal from './Cart/Modal';
+import PaymentSuccessful from './ConfirmPayment/PaymentSuccessful';
 
 function CartSection() {
 
@@ -14,6 +15,19 @@ function CartSection() {
     const handleCloseModal = () => {
         setShowModal(false);
     };
+
+    const [showSuccess, setShowSuccess] = useState(false);
+
+    const handlePayment = () => {
+        setTimeout(() => {
+        setShowSuccess(true);
+        }, 1000);
+    };
+
+    const handleClose = () => {
+        setShowSuccess(false);
+    };
+
 
     return (
         <>
@@ -92,11 +106,12 @@ function CartSection() {
                                 </div>
                             </div>
                             <div className=" flex flex-row justify-center items-center w-full  ">
-                                <button type="submit" className="px-4 py-2 bg-black text-white rounded-md mt-4 mx-auto">Pay Now</button>
+                                <button onClick={handlePayment} type="submit" className="px-4 py-2 bg-black text-white rounded-md mt-4 mx-auto">Pay Now</button>
                             </div>
                         </form>
                     </div>
                 </Modal>
+                <PaymentSuccessful show={showSuccess} handleClose={handleClose} />
             </div>
         </>
     )
