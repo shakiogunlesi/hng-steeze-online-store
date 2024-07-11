@@ -1,5 +1,5 @@
 import HeroSection from "../HeroSection";
-
+import CartSection from "../CartSection";
 import Footer from "../footer";
 
 
@@ -8,7 +8,7 @@ const CartPage = () => {
       <>
         <div className="mx-6">
             <HeroSection />
-            
+            <CartSection />
             <Footer />
         </div>
       </>

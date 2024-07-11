@@ -35,7 +35,7 @@ function DailyPickSection() {
                                         Add to cart  
                                         <img 
                                             src={CartIcon}
-                                            alt='Arrow-right'
+                                            alt='Cart-icon'
                                             className='md:w-[20px] w-[15px] h-[15px] md:h-[20px]'
                                         />
                                     </button>
@@ -59,7 +59,7 @@ function DailyPickSection() {
                                     Add to cart  
                                     <img 
                                     src={CartIcon}
-                                    alt='Arrow-right'
+                                    alt='Cart-icon'
                                     className='md:w-[20px] w-[15px] h-[15px] md:h-[20px]'
                                     />
                                 </button>
@@ -82,7 +82,7 @@ function DailyPickSection() {
                                     Add to cart  
                                     <img 
                                     src={CartIcon}
-                                    alt='Arrow-right'
+                                    alt='Cart-icon'
                                     className='md:w-[20px] w-[15px] h-[15px] md:h-[20px]'
                                     />
                                 </button>
@@ -104,7 +104,7 @@ function DailyPickSection() {
                                     Add to cart  
                                     <img 
                                     src={CartIcon}
-                                    alt='Arrow-right'
+                                    alt='Cart-icon'
                                     className='md:w-[20px] w-[15px] h-[15px] md:h-[20px]'
                                     />
                                 </button>
@@ -126,7 +126,7 @@ function DailyPickSection() {
                                     Add to cart  
                                     <img 
                                     src={CartIcon}
-                                    alt='Arrow-right'
+                                    alt='Cart-icon'
                                     className='md:w-[20px] w-[15px] h-[15px] md:h-[20px]'
                                     />
                                 </button>
@@ -148,7 +148,7 @@ function DailyPickSection() {
                                     Add to cart  
                                     <img 
                                     src={CartIcon}
-                                    alt='Arrow-right'
+                                    alt='Cart-icon'
                                     className='md:w-[20px] w-[15px] h-[15px] md:h-[20px]'
                                     />
                                 </button>
@@ -170,7 +170,7 @@ function DailyPickSection() {
                                     Add to cart  
                                     <img 
                                     src={CartIcon}
-                                    alt='Arrow-right'
+                                    alt='Cart-icon'
                                     className='md:w-[20px] w-[15px] h-[15px] md:h-[20px]'
                                     />
                                 </button>
@@ -192,7 +192,7 @@ function DailyPickSection() {
                                     Add to cart  
                                     <img 
                                     src={CartIcon}
-                                    alt='Arrow-right'
+                                    alt='Cart-icon'
                                     className='md:w-[20px] w-[15px] h-[15px] md:h-[20px]'
                                     />
                                 </button>
