@@ -4,7 +4,7 @@ import Navbar from './navbar'
 function heroSection() {
     return (
         <>
-        <div className='mt-10 rounded-[25px] py-10' style={{ backgroundImage: `url(${BgImage})`, backgroundPosition: 'center', backgroundSize: 'cover', backgroundRepeat: 'no-repeat' }}>
+        <div className='mt-10 rounded-[24px] py-10' style={{ backgroundImage: `url(${BgImage})`, backgroundPosition: 'center', backgroundSize: 'cover', backgroundRepeat: 'no-repeat' }}>
             <Navbar />
             <div className="w-full flex flex-col justify-center lg:gap-8 sm:gap-0 items-center leading-[56px] my-16 mx-auto">
                 <h1 className="font-semibold md:text-[56px] text-[40px] text-white sm:leading-3">Your Number one Fashion Store</h1>

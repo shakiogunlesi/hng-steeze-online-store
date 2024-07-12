@@ -6,7 +6,7 @@ const Footer = () => {
  
     return (
         <>
-            <div className='my-10 rounded-[30px] py-10 md:px-16 px-6 bg-black flex gap-16 xl:flex-row lg:flex-row md:flex-row flex-col-reverse justify-between items-center mx-auto'>
+            <div className='my-10 rounded-[16px] py-10 md:px-16 px-6 bg-black flex gap-16 xl:flex-row lg:flex-row md:flex-row flex-col-reverse justify-between items-center mx-auto'>
                 <div className=" flex md:flex-col flex-col-reverse items-start gap-4 justify-start">
                     <p className=" text-white md:text-[24px] text-[18px] font-[400]">Copyright © SteeZers 2024</p>
                     <div className=" flex flex-row gap-3 items-start justify-start">
