@@ -23,13 +23,13 @@ function LadiesLoveSection() {
                     <div className="flex flex-row w-full h-[70%] bg-gray-400" style={{ backgroundImage: `url(${Bgladiessuit})`, backgroundPosition: 'center', backgroundSize: 'cover', backgroundRepeat: 'no-repeat' }}>
                         <div className='bg-black absolute inset-x-0 bottom-0 flex pt-10 px-4'>
                             <div className="flex flex-col text-left text-white w-[350px]">
-                                <h2 className="flex-nowrap font-semibold text-[15px]">Pink Lady’s Coat</h2>
-                                <p>$200</p>
+                                <h2 className="flex-nowrap font-[600] text-[14px]">Pink Lady’s Coat</h2>
+                                <p className='text-[14px] font-[400]'>$200</p>
                                 <div className="mb-[2px] border-t-2 border-white w-[90%]"></div>
-                                <p className="">1 unit left</p>
+                                <p className="text-[12px] font-[400]">1 unit left</p>
                             </div>
                             <Link to='/CartPage'>
-                                <button className="w-full w-[140px] h-fit justify-center items-center bg-white mt-4 px-2 py-2 rounded-2xl flex flex-row gap-1 text-[12px] font-OpenSans text-black">
+                                <button className="lg:w-[124px] w-[100px] h-fit justify-center items-center bg-white mt-3 md:w-[124px] px-2 py-2 rounded-2xl flex flex-row gap-1 text-[12px] font-OpenSans text-black">
                                     Add to cart  
                                     <img 
                                     src={CartIcon}
@@ -45,13 +45,13 @@ function LadiesLoveSection() {
                     <div className="flex flex-row w-full h-[70%] bg-gray-400" style={{ backgroundImage: `url(${Bgladieswears})`, backgroundPosition: 'center', backgroundSize: 'cover', backgroundRepeat: 'no-repeat' }}>
                         <div className='bg-black absolute inset-x-0 bottom-0 flex pt-10 px-4'>
                             <div className="flex flex-col text-left text-white w-[350px]">
-                                <h2 className="flex-nowrap font-semibold text-[15px]">Ladies Baggy Sweat Wear</h2>
-                                <p>$200</p>
+                                <h2 className="flex-nowrap font-[600] text-[14px]">Ladies Baggy Sweat Wear</h2>
+                                <p className='text-[14px] font-[400]'>$200</p>
                                 <div className="mb-[2px] border-t-2 border-white w-[90%]"></div>
-                                <p className="">1 unit left</p>
+                                <p className="text-[12px] font-[400]">1 unit left</p>
                             </div>
                             <Link to='/CartPage'>
-                                <button className="w-full w-[140px] h-fit justify-center items-center bg-white mt-4 px-2 py-2 rounded-2xl flex flex-row gap-1 text-[12px] font-OpenSans text-black">
+                                <button className="lg:w-[124px] w-[100px] h-fit justify-center items-center bg-white mt-3 md:w-[124px] px-2 py-2 rounded-2xl flex flex-row gap-1 text-[12px] font-OpenSans text-black">
                                     Add to cart  
                                     <img 
                                     src={CartIcon}
@@ -67,13 +67,13 @@ function LadiesLoveSection() {
                     <div className="flex flex-row w-full h-[70%] bg-gray-400" style={{ backgroundImage: `url(${BgblackDinner})`, backgroundPosition: 'center', backgroundSize: 'cover', backgroundRepeat: 'no-repeat' }}>
                         <div className='bg-black absolute inset-x-0 bottom-0 flex pt-10 px-4'>
                             <div className="flex flex-col text-left text-white w-[350px]">
-                                <h2 className="flex-nowrap font-semibold text-[15px]">Black Dinner Gown</h2>
-                                <p>$200</p>
+                                <h2 className="flex-nowrap font-[600] text-[14px]">Black Dinner Gown</h2>
+                                <p className='text-[14px] font-[400]'>$200</p>
                                 <div className="mb-[2px] border-t-2 border-white w-[90%]"></div>
-                                <p className="">1 unit left</p>
+                                <p className="text-[12px] font-[400]">1 unit left</p>
                             </div>
                             <Link to='/CartPage'>
-                                <button className="w-full w-[140px] h-fit justify-center items-center bg-white mt-4 px-2 py-2 rounded-2xl flex flex-row gap-1 text-[12px] font-OpenSans text-black">
+                                <button className="lg:w-[124px] w-[100px] h-fit justify-center items-center bg-white mt-3 md:w-[124px] px-2 py-2 rounded-2xl flex flex-row gap-1 text-[12px] font-OpenSans text-black">
                                     Add to cart  
                                     <img 
                                     src={CartIcon}
@@ -89,13 +89,13 @@ function LadiesLoveSection() {
                     <div className="flex flex-row w-full h-[70%] bg-gray-400" style={{ backgroundImage: `url(${BgweastBand})`, backgroundPosition: 'center', backgroundSize: 'cover', backgroundRepeat: 'no-repeat' }}>
                         <div className='bg-black absolute inset-x-0 bottom-0 flex pt-10 px-4'>
                             <div className="flex flex-col text-left text-white w-[350px]">
-                                <h2 className="flex-nowrap font-semibold text-[15px]">Waist Belt for Ladies</h2>
+                                <h2 className="flex-nowrap font-[600] text-[14px]">Waist Belt for Ladies</h2>
                                 <p>$800</p>
                                 <div className="mb-[2px] border-t-2 border-white w-[90%]"></div>
-                                <p className="">1 unit left</p>
+                                <p className="text-[12px] font-[400]">1 unit left</p>
                             </div>
                             <Link to='/CartPage'>
-                                <button className="w-full w-[140px] h-fit justify-center items-center bg-white mt-4 px-2 py-2 rounded-2xl flex flex-row gap-1 text-[12px] font-OpenSans text-black">
+                                <button className="lg:w-[124px] w-[100px] h-fit justify-center items-center bg-white mt-3 md:w-[124px] px-2 py-2 rounded-2xl flex flex-row gap-1 text-[12px] font-OpenSans text-black">
                                     Add to cart  
                                     <img 
                                     src={CartIcon}
@@ -111,13 +111,13 @@ function LadiesLoveSection() {
                     <div className="flex flex-row w-full h-[70%] bg-gray-400" style={{ backgroundImage: `url(${BgtopWears})`, backgroundPosition: 'center', backgroundSize: 'cover', backgroundRepeat: 'no-repeat' }}>
                         <div className='bg-black absolute inset-x-0 bottom-0 flex pt-10 px-4'>
                             <div className="flex flex-col text-left text-white w-[350px]">
-                                <h2 className="flex-nowrap font-semibold text-[15px]">Knitted Top</h2>
-                                <p>$200</p>
+                                <h2 className="flex-nowrap font-[600] text-[14px]">Knitted Top</h2>
+                                <p className='text-[14px] font-[400]'>$200</p>
                                 <div className="mb-[2px] border-t-2 border-white w-[90%]"></div>
-                                <p className="">1 unit left</p>
+                                <p className="text-[12px] font-[400]">1 unit left</p>
                             </div>
                             <Link to='/CartPage'>
-                                <button className="w-full w-[140px] h-fit justify-center items-center bg-white mt-4 px-2 py-2 rounded-2xl flex flex-row gap-1 text-[12px] font-OpenSans text-black">
+                                <button className="lg:w-[124px] w-[100px] h-fit justify-center items-center bg-white mt-3 md:w-[124px] px-2 py-2 rounded-2xl flex flex-row gap-1 text-[12px] font-OpenSans text-black">
                                     Add to cart  
                                     <img 
                                     src={CartIcon}
@@ -133,13 +133,13 @@ function LadiesLoveSection() {
                     <div className="flex flex-row w-full h-[70%] bg-gray-400" style={{ backgroundImage: `url(${Bgjeansweart})`, backgroundPosition: 'center', backgroundSize: 'cover', backgroundRepeat: 'no-repeat' }}>
                         <div className='bg-black absolute inset-x-0 bottom-0 flex pt-10 px-4'>
                             <div className="flex flex-col text-left text-white w-[350px]">
-                                <h2 className="flex-nowrap font-semibold text-[15px]">Jean & Sweater</h2>
-                                <p>$200</p>
+                                <h2 className="flex-nowrap font-[600] text-[14px]">Jean & Sweater</h2>
+                                <p className='text-[14px] font-[400]'>$200</p>
                                 <div className="mb-[2px] border-t-2 border-white w-[90%]"></div>
-                                <p className="">1 unit left</p>
+                                <p className="text-[12px] font-[400]">1 unit left</p>
                             </div>
                             <Link to='/CartPage'>
-                                <button className="w-full w-[140px] h-fit justify-center items-center bg-white mt-4 px-2 py-2 rounded-2xl flex flex-row gap-1 text-[12px] font-OpenSans text-black">
+                                <button className="lg:w-[124px] w-[100px] h-fit justify-center items-center bg-white mt-3 md:w-[124px] px-2 py-2 rounded-2xl flex flex-row gap-1 text-[12px] font-OpenSans text-black">
                                     Add to cart  
                                     <img 
                                     src={CartIcon}
@@ -155,13 +155,13 @@ function LadiesLoveSection() {
                     <div className="flex flex-row w-full h-[70%] bg-gray-400" style={{ backgroundImage: `url(${BgredTop})`, backgroundPosition: 'center', backgroundSize: 'cover', backgroundRepeat: 'no-repeat' }}>
                         <div className='bg-black absolute inset-x-0 bottom-0 flex pt-10 px-4'>
                             <div className="flex flex-col text-left text-white w-[350px]">
-                                <h2 className="flex-nowrap font-semibold text-[15px]">Pink Lady’s Coat</h2>
-                                <p>$200</p>
+                                <h2 className="flex-nowrap font-[600] text-[14px]">Pink Lady’s Coat</h2>
+                                <p className='text-[14px] font-[400]'>$200</p>
                                 <div className="mb-[2px] border-t-2 border-white w-[90%]"></div>
-                                <p className="">1 unit left</p>
+                                <p className="text-[12px] font-[400]">1 unit left</p>
                             </div>
                             <Link to='/CartPage'>
-                                <button className="w-full w-[140px] h-fit justify-center items-center bg-white mt-4 px-2 py-2 rounded-2xl flex flex-row gap-1 text-[12px] font-OpenSans text-black">
+                                <button className="lg:w-[124px] w-[100px] h-fit justify-center items-center bg-white mt-3 md:w-[124px] px-2 py-2 rounded-2xl flex flex-row gap-1 text-[12px] font-OpenSans text-black">
                                     Add to cart  
                                     <img 
                                     src={CartIcon}
@@ -177,13 +177,13 @@ function LadiesLoveSection() {
                     <div className="flex flex-row w-full h-[70%] bg-gray-400" style={{ backgroundImage: `url(${Bgblackinner})`, backgroundPosition: 'center', backgroundSize: 'cover', backgroundRepeat: 'no-repeat' }}>
                         <div className='bg-black absolute inset-x-0 bottom-0 flex pt-10 px-4'>
                             <div className="flex flex-col text-left text-white w-[350px]">
-                                <h2 className="flex-nowrap font-semibold text-[15px]">Light Ladies Top</h2>
+                                <h2 className="flex-nowrap font-[600] text-[14px]">Light Ladies Top</h2>
                                 <p>$800</p>
                                 <div className="mb-[2px] border-t-2 border-white w-[90%]"></div>
-                                <p className="">1 unit left</p>
+                                <p className="text-[12px] font-[400]">1 unit left</p>
                             </div>
                             <Link to='/CartPage'>
-                                <button className="w-full w-[140px] h-fit justify-center items-center bg-white mt-4 px-2 py-2 rounded-2xl flex flex-row gap-1 text-[12px] font-OpenSans text-black">
+                                <button className="lg:w-[124px] w-[100px] h-fit justify-center items-center bg-white mt-3 md:w-[124px] px-2 py-2 rounded-2xl flex flex-row gap-1 text-[12px] font-OpenSans text-black">
                                     Add to cart  
                                     <img 
                                     src={CartIcon}

@@ -1,4 +1,6 @@
 /** @type {import('tailwindcss').Config} */
+
+
 export default {
   content: [
     "./index.html", "./src/**/*.{js,ts,jsx,tsx}",
@@ -6,7 +8,11 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        'body': ["Sary"],
+        'sans': ['ui-sans-serif', 'system-ui'],
+        'serif': ['ui-serif', 'Georgia'],
+        'mono': ['ui-monospace', 'SFMono-Regular'],
+        'display': ['Oswald'],
+        'body': ['"Open Sans"'],
       },
       colors: {
         primary: "#004952",
