@@ -20,7 +20,7 @@ function LadiesLoveSection() {
             </div>
             <div className="w-full grid md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 sm:grid-cols-2 xs:grid-cols-1 gap-x-5 gap-y-5">
                 <div className="flex flex-col w-[100%] h-[352px] rounded-2xl relative overflow-hidden">
-                    <div className="flex flex-row w-full h-[70%] bg-gray-400" style={{ backgroundImage: `url(${Bgladiessuit})`, backgroundPosition: 'center', backgroundSize: 'cover', backgroundRepeat: 'no-repeat' }}>
+                    <div className="flex flex-row w-full h-[72%] bg-gray-400" style={{ backgroundImage: `url(${Bgladiessuit})`, backgroundPosition: 'center', backgroundSize: 'cover', backgroundRepeat: 'no-repeat' }}>
                         <div className='bg-black absolute inset-x-0 bottom-0 flex pt-10 px-4'>
                             <div className="flex flex-col text-left text-white w-[350px]">
                                 <h2 className="flex-nowrap font-[600] text-[14px]">Pink Lady’s Coat</h2>
@@ -42,7 +42,7 @@ function LadiesLoveSection() {
                     </div>
                 </div>
                 <div className="flex flex-col w-[100%] h-[352px] rounded-2xl relative overflow-hidden">
-                    <div className="flex flex-row w-full h-[70%] bg-gray-400" style={{ backgroundImage: `url(${Bgladieswears})`, backgroundPosition: 'center', backgroundSize: 'cover', backgroundRepeat: 'no-repeat' }}>
+                    <div className="flex flex-row w-full h-[72%] bg-gray-400" style={{ backgroundImage: `url(${Bgladieswears})`, backgroundPosition: 'center', backgroundSize: 'cover', backgroundRepeat: 'no-repeat' }}>
                         <div className='bg-black absolute inset-x-0 bottom-0 flex pt-10 px-4'>
                             <div className="flex flex-col text-left text-white w-[350px]">
                                 <h2 className="flex-nowrap font-[600] text-[14px]">Ladies Baggy Sweat Wear</h2>
@@ -64,7 +64,7 @@ function LadiesLoveSection() {
                     </div>
                 </div>
                 <div className="flex flex-col w-[100%] h-[352px] rounded-2xl relative overflow-hidden">
-                    <div className="flex flex-row w-full h-[70%] bg-gray-400" style={{ backgroundImage: `url(${BgblackDinner})`, backgroundPosition: 'center', backgroundSize: 'cover', backgroundRepeat: 'no-repeat' }}>
+                    <div className="flex flex-row w-full h-[72%] bg-gray-400" style={{ backgroundImage: `url(${BgblackDinner})`, backgroundPosition: 'center', backgroundSize: 'cover', backgroundRepeat: 'no-repeat' }}>
                         <div className='bg-black absolute inset-x-0 bottom-0 flex pt-10 px-4'>
                             <div className="flex flex-col text-left text-white w-[350px]">
                                 <h2 className="flex-nowrap font-[600] text-[14px]">Black Dinner Gown</h2>
@@ -86,7 +86,7 @@ function LadiesLoveSection() {
                     </div>
                 </div>
                 <div className="flex flex-col w-[100%] h-[352px] rounded-2xl relative overflow-hidden">
-                    <div className="flex flex-row w-full h-[70%] bg-gray-400" style={{ backgroundImage: `url(${BgweastBand})`, backgroundPosition: 'center', backgroundSize: 'cover', backgroundRepeat: 'no-repeat' }}>
+                    <div className="flex flex-row w-full h-[72%] bg-gray-400" style={{ backgroundImage: `url(${BgweastBand})`, backgroundPosition: 'center', backgroundSize: 'cover', backgroundRepeat: 'no-repeat' }}>
                         <div className='bg-black absolute inset-x-0 bottom-0 flex pt-10 px-4'>
                             <div className="flex flex-col text-left text-white w-[350px]">
                                 <h2 className="flex-nowrap font-[600] text-[14px]">Waist Belt for Ladies</h2>
@@ -108,7 +108,7 @@ function LadiesLoveSection() {
                     </div>
                 </div>
                 <div className="flex flex-col w-[100%] h-[352px] rounded-2xl relative overflow-hidden">
-                    <div className="flex flex-row w-full h-[70%] bg-gray-400" style={{ backgroundImage: `url(${BgtopWears})`, backgroundPosition: 'center', backgroundSize: 'cover', backgroundRepeat: 'no-repeat' }}>
+                    <div className="flex flex-row w-full h-[72%] bg-gray-400" style={{ backgroundImage: `url(${BgtopWears})`, backgroundPosition: 'center', backgroundSize: 'cover', backgroundRepeat: 'no-repeat' }}>
                         <div className='bg-black absolute inset-x-0 bottom-0 flex pt-10 px-4'>
                             <div className="flex flex-col text-left text-white w-[350px]">
                                 <h2 className="flex-nowrap font-[600] text-[14px]">Knitted Top</h2>
@@ -130,7 +130,7 @@ function LadiesLoveSection() {
                     </div>
                 </div>
                 <div className="flex flex-col w-[100%] h-[352px] rounded-2xl relative overflow-hidden">
-                    <div className="flex flex-row w-full h-[70%] bg-gray-400" style={{ backgroundImage: `url(${Bgjeansweart})`, backgroundPosition: 'center', backgroundSize: 'cover', backgroundRepeat: 'no-repeat' }}>
+                    <div className="flex flex-row w-full h-[72%] bg-gray-400" style={{ backgroundImage: `url(${Bgjeansweart})`, backgroundPosition: 'center', backgroundSize: 'cover', backgroundRepeat: 'no-repeat' }}>
                         <div className='bg-black absolute inset-x-0 bottom-0 flex pt-10 px-4'>
                             <div className="flex flex-col text-left text-white w-[350px]">
                                 <h2 className="flex-nowrap font-[600] text-[14px]">Jean & Sweater</h2>
@@ -152,7 +152,7 @@ function LadiesLoveSection() {
                     </div>
                 </div>
                 <div className="flex flex-col w-[100%] h-[352px] rounded-2xl relative overflow-hidden">
-                    <div className="flex flex-row w-full h-[70%] bg-gray-400" style={{ backgroundImage: `url(${BgredTop})`, backgroundPosition: 'center', backgroundSize: 'cover', backgroundRepeat: 'no-repeat' }}>
+                    <div className="flex flex-row w-full h-[72%] bg-gray-400" style={{ backgroundImage: `url(${BgredTop})`, backgroundPosition: 'center', backgroundSize: 'cover', backgroundRepeat: 'no-repeat' }}>
                         <div className='bg-black absolute inset-x-0 bottom-0 flex pt-10 px-4'>
                             <div className="flex flex-col text-left text-white w-[350px]">
                                 <h2 className="flex-nowrap font-[600] text-[14px]">Pink Lady’s Coat</h2>
@@ -174,7 +174,7 @@ function LadiesLoveSection() {
                     </div>
                 </div>
                 <div className="flex flex-col w-[100%] h-[352px] rounded-2xl relative overflow-hidden">
-                    <div className="flex flex-row w-full h-[70%] bg-gray-400" style={{ backgroundImage: `url(${Bgblackinner})`, backgroundPosition: 'center', backgroundSize: 'cover', backgroundRepeat: 'no-repeat' }}>
+                    <div className="flex flex-row w-full h-[72%] bg-gray-400" style={{ backgroundImage: `url(${Bgblackinner})`, backgroundPosition: 'center', backgroundSize: 'cover', backgroundRepeat: 'no-repeat' }}>
                         <div className='bg-black absolute inset-x-0 bottom-0 flex pt-10 px-4'>
                             <div className="flex flex-col text-left text-white w-[350px]">
                                 <h2 className="flex-nowrap font-[600] text-[14px]">Light Ladies Top</h2>
