@@ -2,6 +2,8 @@
 import { useSelector } from 'react-redux';
 import CartIcon from '../assets/images/cartIcon2.png';
 import LogoutIcon from '../assets/images/loginoutIcon.png';
+import { Link } from 'react-router-dom';
+
 
 const Navbar = () => {
     const cartItems = useSelector((state) => state.cart.items);
@@ -27,7 +29,7 @@ const Navbar = () => {
                         </div>
                         <div className="">
                             <div className="ml-10 flex items-baseline space-x-4">
-                                <a href="/" className="cursor-pointer flex-row flex items-center mr-3">
+                                <Link to="/CartPage" className="cursor-pointer flex-row flex items-center mr-3">
                                     <p className="text-white text-[16px] justify-center flex items-center flex-row gap-2">Cart 
                                         <img 
                                         src={CartIcon}
@@ -36,7 +38,7 @@ const Navbar = () => {
                                         />
                                         <span className='text-white bg-red-500 pr-[0.5px] w-[25px] h-[25px] rounded-full cartButton'>({cartCount})</span>
                                     </p>
-                                </a>
+                                </Link>
                                 <a href="/" className="cursor-pointer flex-row flex items-center gap-1">
                                     <p className="text-white text-[16px] justify-center flex items-center flex-row gap-2">Logout
                                         <img 
