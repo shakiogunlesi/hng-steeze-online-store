@@ -15,7 +15,7 @@ function MenWearsSection() {
         <>
         <div className="flex flex-col mx-auto justify-start items-start my-20 overflow-hidden">
             <div className="flex flex-column flex-row justify-between items-center w-full my-8">
-                <h1 className="font-semibold text-[25px] md:text-[45px] text-black">For Men</h1>
+                <h1 className="font-[600] text-[25px] md:text-[40px] text-black">For Men</h1>
                 <a className="font-semibold  xl:flex px-3 py-1 items-center lg:flex border-2 rounded-xl border-black" href="#">See More</a>
             </div>
             <div className="w-full grid md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 sm:grid-cols-2 xs:grid-cols-1 gap-x-5 gap-y-5">
