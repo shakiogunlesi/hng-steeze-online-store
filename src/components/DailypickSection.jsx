@@ -31,7 +31,7 @@ function DailyPickSection() {
                             </div>
                             <div>
                                 <Link to='/CartPage'>
-                                    <button className="w-full  h-fit justify-center items-center bg-white mt-4 px-2 py-2 rounded-2xl flex flex-row gap-1 text-[12px] font-OpenSans text-black">  
+                                    <button className="w-full XS:W-[200px]  h-fit justify-center items-center bg-white mt-4 px-2 py-2 rounded-2xl flex flex-row gap-1 text-[12px] font-OpenSans text-black">  
                                         Add to cart  
                                         <img 
                                             src={CartIcon}
@@ -55,7 +55,7 @@ function DailyPickSection() {
                                 <p className="">1 unit left</p>
                             </div>
                             <Link to='/CartPage'>
-                                <button className="w-full  h-fit justify-center items-center bg-white mt-4 px-2 py-2 rounded-2xl flex flex-row gap-1 text-[12px] font-OpenSans text-black">
+                                <button className="w-full XS:W-[200px]  h-fit justify-center items-center bg-white mt-4 px-2 py-2 rounded-2xl flex flex-row gap-1 text-[12px] font-OpenSans text-black">
                                     Add to cart  
                                     <img 
                                     src={CartIcon}
@@ -78,7 +78,7 @@ function DailyPickSection() {
                             </div>
                             
                             <Link to='/CartPage'>
-                                <button className="w-full  h-fit justify-center items-center bg-white mt-4 px-2 py-2 rounded-2xl flex flex-row gap-1 text-[12px] font-OpenSans text-black">
+                                <button className="w-full XS:W-[200px]  h-fit justify-center items-center bg-white mt-4 px-2 py-2 rounded-2xl flex flex-row gap-1 text-[12px] font-OpenSans text-black">
                                     Add to cart  
                                     <img 
                                     src={CartIcon}
@@ -100,7 +100,7 @@ function DailyPickSection() {
                                 <p className="">1 unit left</p>
                             </div>
                             <Link to='/CartPage'>
-                                <button className="w-full  h-fit justify-center items-center bg-white mt-4 px-2 py-2 rounded-2xl flex flex-row gap-1 text-[12px] font-OpenSans text-black">
+                                <button className="w-full XS:W-[200px]  h-fit justify-center items-center bg-white mt-4 px-2 py-2 rounded-2xl flex flex-row gap-1 text-[12px] font-OpenSans text-black">
                                     Add to cart  
                                     <img 
                                     src={CartIcon}
@@ -122,7 +122,7 @@ function DailyPickSection() {
                                 <p className="">1 unit left</p>
                             </div>
                             <Link to='/CartPage'>
-                                <button className="w-full  h-fit justify-center items-center bg-white mt-4 px-2 py-2 rounded-2xl flex flex-row gap-1 text-[12px] font-OpenSans text-black">
+                                <button className="w-full XS:W-[200px]  h-fit justify-center items-center bg-white mt-4 px-2 py-2 rounded-2xl flex flex-row gap-1 text-[12px] font-OpenSans text-black">
                                     Add to cart  
                                     <img 
                                     src={CartIcon}
@@ -144,7 +144,7 @@ function DailyPickSection() {
                                 <p className="">1 unit left</p>
                             </div>
                             <Link to='/CartPage'>
-                                <button className="w-full  h-fit justify-center items-center bg-white mt-4 px-2 py-2 rounded-2xl flex flex-row gap-1 text-[12px] font-OpenSans text-black">
+                                <button className="w-full XS:W-[200px]  h-fit justify-center items-center bg-white mt-4 px-2 py-2 rounded-2xl flex flex-row gap-1 text-[12px] font-OpenSans text-black">
                                     Add to cart  
                                     <img 
                                     src={CartIcon}
@@ -166,7 +166,7 @@ function DailyPickSection() {
                                 <p className="">1 unit left</p>
                             </div>
                             <Link to='/CartPage'>
-                                <button className="w-full  h-fit justify-center items-center bg-white mt-4 px-2 py-2 rounded-2xl flex flex-row gap-1 text-[12px] font-OpenSans text-black">
+                                <button className="w-full XS:W-[200px]  h-fit justify-center items-center bg-white mt-4 px-2 py-2 rounded-2xl flex flex-row gap-1 text-[12px] font-OpenSans text-black">
                                     Add to cart  
                                     <img 
                                     src={CartIcon}
@@ -188,7 +188,7 @@ function DailyPickSection() {
                                 <p className="">1 unit left</p>
                             </div>
                             <Link to='/CartPage'>
-                                <button className="w-full  h-fit justify-center items-center bg-white mt-4 px-2 py-2 rounded-2xl flex flex-row gap-1 text-[12px] font-OpenSans text-black">
+                                <button className="w-full XS:W-[200px]  h-fit justify-center items-center bg-white mt-4 px-2 py-2 rounded-2xl flex flex-row gap-1 text-[12px] font-OpenSans text-black">
                                     Add to cart  
                                     <img 
                                     src={CartIcon}
