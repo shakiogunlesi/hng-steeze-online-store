@@ -14,21 +14,21 @@ const Footer = () => {
                             <img 
                                 src={FacebookIcon}
                                 alt='Arrow-right'
-                                className='md:w-[50px] w-[30px] h-[30px] md:h-[50px]'
+                                className='md:w-[60px] w-[30px] h-[30px] md:h-[60px]'
                             />
                         </div>
                         <div className="flex flex-row justify-start items-start p-2 rounded-full bg-white">
                             <img 
                                 src={InstagramIcon}
                                 alt='Arrow-right'
-                                className='md:w-[50px] w-[30px] h-[30px] md:h-[50px]'
+                                className='md:w-[60px] w-[30px] h-[30px] md:h-[60px]'
                             />
                         </div>
                         <div className="flex flex-row justify-start items-start p-2 rounded-full bg-white">
                             <img 
                                 src={TwitterIcon}
                                 alt='Arrow-right'
-                                className='md:w-[50px] w-[30px] h-[30px] md:h-[50px]'
+                                className='md:w-[60px] w-[30px] h-[30px] md:h-[60px]'
                             />
                         </div>
                     </div>
