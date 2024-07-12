@@ -23,7 +23,7 @@ function DailyPickSection() {
                 <div className="flex flex-col w-[100%] h-[352px] rounded-2xl relative overflow-hidden">
                     <div className="flex flex-row w-full h-[70%] bg-gray-400" style={{ backgroundImage: `url(${BgManwear})`, backgroundPosition: 'center', backgroundSize: 'cover', backgroundRepeat: 'no-repeat' }}>
                         <div className='bg-black absolute inset-x-0 bottom-0 flex pt-10 px-4'>
-                            <div className="flex flex-col text-left text-white md:w-[350px] xs:w-full">
+                            <div className="flex flex-col text-left text-white w-[350px]">
                                 <h2 className="flex-nowrap font-semibold text-[15px]">Cooperate Office Shirt</h2>
                                 <p>$700</p>
                                 <div className="mb-[2px] border-t-2 border-white w-[90%]"></div>
@@ -31,7 +31,7 @@ function DailyPickSection() {
                             </div>
                             <div>
                                 <Link to='/CartPage'>
-                                    <button className="w-full XS:W-[200px]  h-fit justify-center items-center bg-white mt-4 px-2 py-2 rounded-2xl flex flex-row gap-1 text-[12px] font-OpenSans text-black">  
+                                    <button className="w-full w-[140px] h-fit justify-center items-center bg-white mt-4 px-2 py-2 rounded-2xl flex flex-row gap-1 text-[12px] font-OpenSans text-black">  
                                         Add to cart  
                                         <img 
                                             src={CartIcon}
@@ -48,14 +48,14 @@ function DailyPickSection() {
                 <div className="flex flex-col w-[100%] h-[352px] rounded-2xl relative overflow-hidden">
                     <div className="flex flex-row w-full h-[70%] bg-gray-400" style={{ backgroundImage: `url(${BgblackInner})`, backgroundPosition: 'center', backgroundSize: 'cover', backgroundRepeat: 'no-repeat' }}>
                         <div className='bg-black absolute inset-x-0 bottom-0 flex pt-10 px-4'>
-                            <div className="flex flex-col text-left text-white md:w-[350px] xs:w-full">
+                            <div className="flex flex-col text-left text-white w-[350px]">
                                 <h2 className="flex-nowrap font-semibold text-[15px]">Light Ladies Top</h2>
                                 <p>$200</p>
                                 <div className="mb-[2px] border-t-2 border-white w-[90%]"></div>
                                 <p className="">1 unit left</p>
                             </div>
                             <Link to='/CartPage'>
-                                <button className="w-full XS:W-[200px]  h-fit justify-center items-center bg-white mt-4 px-2 py-2 rounded-2xl flex flex-row gap-1 text-[12px] font-OpenSans text-black">
+                                <button className="w-full w-[140px] h-fit justify-center items-center bg-white mt-4 px-2 py-2 rounded-2xl flex flex-row gap-1 text-[12px] font-OpenSans text-black">
                                     Add to cart  
                                     <img 
                                     src={CartIcon}
@@ -70,7 +70,7 @@ function DailyPickSection() {
                 <div className="flex flex-col w-[100%] h-[352px] rounded-2xl relative overflow-hidden">
                     <div className="flex flex-row w-full h-[70%] bg-gray-400" style={{ backgroundImage: `url(${BgredTop})`, backgroundPosition: 'center', backgroundSize: 'cover', backgroundRepeat: 'no-repeat' }}>
                         <div className='bg-black absolute inset-x-0 bottom-0 flex pt-10 px-4'>
-                            <div className="flex flex-col text-left text-white md:w-[350px] xs:w-full">
+                            <div className="flex flex-col text-left text-white w-[350px]">
                                 <h2 className="flex-nowrap font-semibold text-[15px]">Pink Lady’s Coat</h2>
                                 <p>$420</p>
                                 <div className="mb-[2px] border-t-2 border-white w-[90%]"></div>
@@ -78,7 +78,7 @@ function DailyPickSection() {
                             </div>
                             
                             <Link to='/CartPage'>
-                                <button className="w-full XS:W-[200px]  h-fit justify-center items-center bg-white mt-4 px-2 py-2 rounded-2xl flex flex-row gap-1 text-[12px] font-OpenSans text-black">
+                                <button className="w-full w-[140px] h-fit justify-center items-center bg-white mt-4 px-2 py-2 rounded-2xl flex flex-row gap-1 text-[12px] font-OpenSans text-black">
                                     Add to cart  
                                     <img 
                                     src={CartIcon}
@@ -93,14 +93,14 @@ function DailyPickSection() {
                 <div className="flex flex-col w-[100%] h-[352px] rounded-2xl relative overflow-hidden">
                     <div className="flex flex-row w-full h-[70%] bg-gray-400" style={{ backgroundImage: `url(${BgJacket})`, backgroundPosition: 'center', backgroundSize: 'cover', backgroundRepeat: 'no-repeat' }}>
                         <div className='bg-black absolute inset-x-0 bottom-0 flex pt-10 px-4'>
-                            <div className="flex flex-col text-left text-white md:w-[350px] xs:w-full">
+                            <div className="flex flex-col text-left text-white w-[350px]">
                                 <h2 className="flex-nowrap font-semibold text-[15px]">Sweat Jacket</h2>
                                 <p>$800</p>
                                 <div className="mb-[2px] border-t-2 border-white w-[90%]"></div>
                                 <p className="">1 unit left</p>
                             </div>
                             <Link to='/CartPage'>
-                                <button className="w-full XS:W-[200px]  h-fit justify-center items-center bg-white mt-4 px-2 py-2 rounded-2xl flex flex-row gap-1 text-[12px] font-OpenSans text-black">
+                                <button className="w-full w-[140px] h-fit justify-center items-center bg-white mt-4 px-2 py-2 rounded-2xl flex flex-row gap-1 text-[12px] font-OpenSans text-black">
                                     Add to cart  
                                     <img 
                                     src={CartIcon}
@@ -115,14 +115,14 @@ function DailyPickSection() {
                 <div className="flex flex-col w-[100%] h-[352px] rounded-2xl relative overflow-hidden">
                     <div className="flex flex-row w-full h-[70%] bg-gray-400" style={{ backgroundImage: `url(${BgMeanJeans})`, backgroundPosition: 'center', backgroundSize: 'cover', backgroundRepeat: 'no-repeat' }}>
                         <div className='bg-black absolute inset-x-0 bottom-0 flex pt-10 px-4'>
-                            <div className="flex flex-col text-left text-white md:w-[350px] xs:w-full">
+                            <div className="flex flex-col text-left text-white w-[350px]">
                                 <h2 className="flex-nowrap font-semibold text-[15px]">Cooperate Office Shirt</h2>
                                 <p>$200</p>
                                 <div className="mb-[2px] border-t-2 border-white w-[90%]"></div>
                                 <p className="">1 unit left</p>
                             </div>
                             <Link to='/CartPage'>
-                                <button className="w-full XS:W-[200px]  h-fit justify-center items-center bg-white mt-4 px-2 py-2 rounded-2xl flex flex-row gap-1 text-[12px] font-OpenSans text-black">
+                                <button className="w-full w-[140px] h-fit justify-center items-center bg-white mt-4 px-2 py-2 rounded-2xl flex flex-row gap-1 text-[12px] font-OpenSans text-black">
                                     Add to cart  
                                     <img 
                                     src={CartIcon}
@@ -137,14 +137,14 @@ function DailyPickSection() {
                 <div className="flex flex-col w-[100%] h-[352px] rounded-2xl relative overflow-hidden">
                     <div className="flex flex-row w-full h-[70%] bg-gray-400" style={{ backgroundImage: `url(${BgJeansTop})`, backgroundPosition: 'center', backgroundSize: 'cover', backgroundRepeat: 'no-repeat' }}>
                         <div className='bg-black absolute inset-x-0 bottom-0 flex pt-10 px-4'>
-                            <div className="flex flex-col text-left text-white md:w-[350px] xs:w-full">
+                            <div className="flex flex-col text-left text-white w-[350px]">
                                 <h2 className="flex-nowrap font-semibold text-[15px]">Men Jean Jacket</h2>
                                 <p>$200</p>
                                 <div className="mb-[2px] border-t-2 border-white w-[90%]"></div>
                                 <p className="">1 unit left</p>
                             </div>
                             <Link to='/CartPage'>
-                                <button className="w-full XS:W-[200px]  h-fit justify-center items-center bg-white mt-4 px-2 py-2 rounded-2xl flex flex-row gap-1 text-[12px] font-OpenSans text-black">
+                                <button className="w-full w-[140px] h-fit justify-center items-center bg-white mt-4 px-2 py-2 rounded-2xl flex flex-row gap-1 text-[12px] font-OpenSans text-black">
                                     Add to cart  
                                     <img 
                                     src={CartIcon}
@@ -159,14 +159,14 @@ function DailyPickSection() {
                 <div className="flex flex-col w-[100%] h-[352px] rounded-2xl relative overflow-hidden">
                     <div className="flex flex-row w-full h-[70%] bg-gray-400" style={{ backgroundImage: `url(${BgroundneckJeans})`, backgroundPosition: 'center', backgroundSize: 'cover', backgroundRepeat: 'no-repeat' }}>
                         <div className='bg-black absolute inset-x-0 bottom-0 flex pt-10 px-4'>
-                            <div className="flex flex-col text-left text-white md:w-[350px] xs:w-full">
+                            <div className="flex flex-col text-left text-white w-[350px]">
                                 <h2 className="flex-nowrap font-semibold text-[15px]">Casual Shirt for Men</h2>
                                 <p>$200</p>
                                 <div className="mb-[2px] border-t-2 border-white w-[90%]"></div>
                                 <p className="">1 unit left</p>
                             </div>
                             <Link to='/CartPage'>
-                                <button className="w-full XS:W-[200px]  h-fit justify-center items-center bg-white mt-4 px-2 py-2 rounded-2xl flex flex-row gap-1 text-[12px] font-OpenSans text-black">
+                                <button className="w-full w-[140px] h-fit justify-center items-center bg-white mt-4 px-2 py-2 rounded-2xl flex flex-row gap-1 text-[12px] font-OpenSans text-black">
                                     Add to cart  
                                     <img 
                                     src={CartIcon}
@@ -181,14 +181,14 @@ function DailyPickSection() {
                 <div className="flex flex-col w-[100%] h-[352px] rounded-2xl relative overflow-hidden">
                     <div className="flex flex-row w-full h-[70%] bg-gray-400" style={{ backgroundImage: `url(${Bgladieswears})`, backgroundPosition: 'center', backgroundSize: 'cover', backgroundRepeat: 'no-repeat' }}>
                         <div className='bg-black absolute inset-x-0 bottom-0 flex pt-10 px-4'>
-                            <div className="flex flex-col text-left text-white md:w-[350px] xs:w-full">
+                            <div className="flex flex-col text-left text-white w-[350px]">
                                 <h2 className="flex-nowrap font-semibold text-[15px]">Ladies Baggy Sweat Wear</h2>
                                 <p>$800</p>
                                 <div className="mb-[2px] border-t-2 border-white w-[90%]"></div>
                                 <p className="">1 unit left</p>
                             </div>
                             <Link to='/CartPage'>
-                                <button className="w-full XS:W-[200px]  h-fit justify-center items-center bg-white mt-4 px-2 py-2 rounded-2xl flex flex-row gap-1 text-[12px] font-OpenSans text-black">
+                                <button className="w-full w-[140px] h-fit justify-center items-center bg-white mt-4 px-2 py-2 rounded-2xl flex flex-row gap-1 text-[12px] font-OpenSans text-black">
                                     Add to cart  
                                     <img 
                                     src={CartIcon}
