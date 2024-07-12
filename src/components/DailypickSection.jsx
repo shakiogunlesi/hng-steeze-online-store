@@ -23,7 +23,7 @@ function DailyPickSection() {
                 <div className="flex flex-col w-[100%] h-[352px] rounded-2xl relative overflow-hidden">
                     <div className="flex flex-row w-full h-[70%] bg-gray-400" style={{ backgroundImage: `url(${BgManwear})`, backgroundPosition: 'center', backgroundSize: 'cover', backgroundRepeat: 'no-repeat' }}>
                         <div className='bg-black absolute inset-x-0 bottom-0 flex pt-10 px-4'>
-                            <div className="flex flex-col text-left text-white md:w-[350px] w-full">
+                            <div className="flex flex-col text-left text-white md:w-[350px] xs:w-full">
                                 <h2 className="flex-nowrap font-semibold text-[15px]">Cooperate Office Shirt</h2>
                                 <p>$700</p>
                                 <div className="mb-[2px] border-t-2 border-white w-[90%]"></div>
@@ -48,7 +48,7 @@ function DailyPickSection() {
                 <div className="flex flex-col w-[100%] h-[352px] rounded-2xl relative overflow-hidden">
                     <div className="flex flex-row w-full h-[70%] bg-gray-400" style={{ backgroundImage: `url(${BgblackInner})`, backgroundPosition: 'center', backgroundSize: 'cover', backgroundRepeat: 'no-repeat' }}>
                         <div className='bg-black absolute inset-x-0 bottom-0 flex pt-10 px-4'>
-                            <div className="flex flex-col text-left text-white md:w-[350px] w-full">
+                            <div className="flex flex-col text-left text-white md:w-[350px] xs:w-full">
                                 <h2 className="flex-nowrap font-semibold text-[15px]">Light Ladies Top</h2>
                                 <p>$200</p>
                                 <div className="mb-[2px] border-t-2 border-white w-[90%]"></div>
@@ -70,7 +70,7 @@ function DailyPickSection() {
                 <div className="flex flex-col w-[100%] h-[352px] rounded-2xl relative overflow-hidden">
                     <div className="flex flex-row w-full h-[70%] bg-gray-400" style={{ backgroundImage: `url(${BgredTop})`, backgroundPosition: 'center', backgroundSize: 'cover', backgroundRepeat: 'no-repeat' }}>
                         <div className='bg-black absolute inset-x-0 bottom-0 flex pt-10 px-4'>
-                            <div className="flex flex-col text-left text-white md:w-[350px] w-full">
+                            <div className="flex flex-col text-left text-white md:w-[350px] xs:w-full">
                                 <h2 className="flex-nowrap font-semibold text-[15px]">Pink Lady’s Coat</h2>
                                 <p>$420</p>
                                 <div className="mb-[2px] border-t-2 border-white w-[90%]"></div>
@@ -93,7 +93,7 @@ function DailyPickSection() {
                 <div className="flex flex-col w-[100%] h-[352px] rounded-2xl relative overflow-hidden">
                     <div className="flex flex-row w-full h-[70%] bg-gray-400" style={{ backgroundImage: `url(${BgJacket})`, backgroundPosition: 'center', backgroundSize: 'cover', backgroundRepeat: 'no-repeat' }}>
                         <div className='bg-black absolute inset-x-0 bottom-0 flex pt-10 px-4'>
-                            <div className="flex flex-col text-left text-white md:w-[350px] w-full">
+                            <div className="flex flex-col text-left text-white md:w-[350px] xs:w-full">
                                 <h2 className="flex-nowrap font-semibold text-[15px]">Sweat Jacket</h2>
                                 <p>$800</p>
                                 <div className="mb-[2px] border-t-2 border-white w-[90%]"></div>
@@ -115,7 +115,7 @@ function DailyPickSection() {
                 <div className="flex flex-col w-[100%] h-[352px] rounded-2xl relative overflow-hidden">
                     <div className="flex flex-row w-full h-[70%] bg-gray-400" style={{ backgroundImage: `url(${BgMeanJeans})`, backgroundPosition: 'center', backgroundSize: 'cover', backgroundRepeat: 'no-repeat' }}>
                         <div className='bg-black absolute inset-x-0 bottom-0 flex pt-10 px-4'>
-                            <div className="flex flex-col text-left text-white md:w-[350px] w-full">
+                            <div className="flex flex-col text-left text-white md:w-[350px] xs:w-full">
                                 <h2 className="flex-nowrap font-semibold text-[15px]">Cooperate Office Shirt</h2>
                                 <p>$200</p>
                                 <div className="mb-[2px] border-t-2 border-white w-[90%]"></div>
@@ -137,7 +137,7 @@ function DailyPickSection() {
                 <div className="flex flex-col w-[100%] h-[352px] rounded-2xl relative overflow-hidden">
                     <div className="flex flex-row w-full h-[70%] bg-gray-400" style={{ backgroundImage: `url(${BgJeansTop})`, backgroundPosition: 'center', backgroundSize: 'cover', backgroundRepeat: 'no-repeat' }}>
                         <div className='bg-black absolute inset-x-0 bottom-0 flex pt-10 px-4'>
-                            <div className="flex flex-col text-left text-white md:w-[350px] w-full">
+                            <div className="flex flex-col text-left text-white md:w-[350px] xs:w-full">
                                 <h2 className="flex-nowrap font-semibold text-[15px]">Men Jean Jacket</h2>
                                 <p>$200</p>
                                 <div className="mb-[2px] border-t-2 border-white w-[90%]"></div>
@@ -159,7 +159,7 @@ function DailyPickSection() {
                 <div className="flex flex-col w-[100%] h-[352px] rounded-2xl relative overflow-hidden">
                     <div className="flex flex-row w-full h-[70%] bg-gray-400" style={{ backgroundImage: `url(${BgroundneckJeans})`, backgroundPosition: 'center', backgroundSize: 'cover', backgroundRepeat: 'no-repeat' }}>
                         <div className='bg-black absolute inset-x-0 bottom-0 flex pt-10 px-4'>
-                            <div className="flex flex-col text-left text-white md:w-[350px] w-full">
+                            <div className="flex flex-col text-left text-white md:w-[350px] xs:w-full">
                                 <h2 className="flex-nowrap font-semibold text-[15px]">Casual Shirt for Men</h2>
                                 <p>$200</p>
                                 <div className="mb-[2px] border-t-2 border-white w-[90%]"></div>
@@ -181,7 +181,7 @@ function DailyPickSection() {
                 <div className="flex flex-col w-[100%] h-[352px] rounded-2xl relative overflow-hidden">
                     <div className="flex flex-row w-full h-[70%] bg-gray-400" style={{ backgroundImage: `url(${Bgladieswears})`, backgroundPosition: 'center', backgroundSize: 'cover', backgroundRepeat: 'no-repeat' }}>
                         <div className='bg-black absolute inset-x-0 bottom-0 flex pt-10 px-4'>
-                            <div className="flex flex-col text-left text-white md:w-[350px] w-full">
+                            <div className="flex flex-col text-left text-white md:w-[350px] xs:w-full">
                                 <h2 className="flex-nowrap font-semibold text-[15px]">Ladies Baggy Sweat Wear</h2>
                                 <p>$800</p>
                                 <div className="mb-[2px] border-t-2 border-white w-[90%]"></div>
