@@ -15,7 +15,9 @@ const Navbar = () => {
                 <div className="flex items-center justify-between h-16">
                     <div className="flex flex-column flex-row justify-between items-center w-full">
                         <div className="flex-shrink-0">
-                            <h1 className="text-black md:text-[36px] text-[25px] font-[700]">SteeZers</h1>
+                            <Link to="/" >
+                                <h1 className="text-black md:text-[36px] text-[25px] font-[700]">SteeZers</h1>
+                            </Link>
                         </div>
                         <div className="hidden md:block w-fit flex items-center">
                             <form className="relative">
