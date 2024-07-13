@@ -15,13 +15,7 @@ export default {
         'body': ['"Open Sans"'],
       },
       colors: {
-        primary: "#004952",
-        primary100: "#FFF3EB",
-        secondary: "#1B9C73",
-        secondary100: "#EAF7E9",
-        dimWhite: "#EAF6FE",
-        grayBg: "#F4F3F1",
-        textC500: "#177EB3",
+        black: "#0A0A0B",
       },
       boxShadow: {
         shadow100: "4px 3px 11.2px rgba(0, 0, 0, 0.25)",
