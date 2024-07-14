@@ -122,7 +122,7 @@ function CartSection() {
                 </div>
             </div>
             <Modal isOpen={isConfirmModalOpen} onClose={() => setConfirmModalOpen(false)} >
-                <div className="bg-[#F2F2F3] p-8 xl:px-12 md:px-10 px-8 rounded-md flex flex-col xl:w-[608px] lg:w-[600px] md:w-[400px] w-[390px] h-[980px]">
+                <div className="bg-[#F2F2F3] p-8 xl:px-12 md:px-10 px-8 rounded-md flex flex-col xl:w-[608px] lg:w-[600px] md:w-[400px] w-[390px] h-[680px]">
                     <button
                         className="absolute top-2 right-2 text-black text-xl"
                         onClick={() => setConfirmModalOpen(false)}
