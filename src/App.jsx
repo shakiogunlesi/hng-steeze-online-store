@@ -3,7 +3,7 @@ import StorePage from "./components/Store/Store";
 import CartPage from "./components/Cart/CartPage";
 import './App.css'
 
-function App() {
+const AppRoutes = () => {
   return (
     <>
       <Routes>
@@ -13,5 +13,13 @@ function App() {
     </>
   );
 }
+
+const App = () => {
+  return (
+    <div>
+      <AppRoutes />
+    </div>
+  );
+};
 
 export default App

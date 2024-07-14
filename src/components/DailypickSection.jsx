@@ -29,6 +29,7 @@ function DailyPickSection() {
         { id: 7, name: 'Casual Shirt for Men', price: 200, image: BgroundneckJeans },
         { id: 8, name: 'Ladies Baggy Sweat Wear', price: 800, image: Bgladieswears },
     ];
+    
 
     return (
         <div className="flex flex-col mx-auto justify-start items-start my-20 overflow-hidden">
