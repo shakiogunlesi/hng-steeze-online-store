@@ -3,7 +3,8 @@ import ArrowLeft from '../assets/images/arrowleft.png';
 import { Link } from "react-router-dom";
 import { useSelector, useDispatch } from 'react-redux';
 import { removeFromCart, clearCart, incrementQuantity, decrementQuantity } from '../features/cart/cartSlice';
-import { Modal, Button } from '@mantine/core';  // Adjust import if you are using a different modal library
+import { Button } from '@mantine/core';
+import Modal from './Cart/Modal';
 
 function CartSection() {
     const cartItems = useSelector((state) => state.cart.items);
@@ -116,8 +117,15 @@ function CartSection() {
                     )}
                 </div>
             </div>
-            <Modal opened={isConfirmModalOpen} onClose={() => setConfirmModalOpen(false)} className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center">
-                <div className="bg-[#F2F2F3] justify-center items-center p-8 xl:px-12 md:px-10 px-8 rounded-md flex flex-col">
+            <Modal open={isConfirmModalOpen} onClose={() => setConfirmModalOpen(false)} className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center">
+                
+                <div className="bg-[#F2F2F3] p-8 xl:px-12 md:px-10 px-8 rounded-md flex flex-col">
+                    <button
+                        className="absolute top-2 right-2 text-black text-xl"
+                        onClick={() => setConfirmModalOpen(false)}
+                    >
+                        &times;
+                    </button>
                     <h2 className="text-2xl font-bold mb-4">Payment</h2>
                     <form className="space-y-4 flex flex-col xl:justify-start justify-center xl:items-start w-full items-center">
                         <div className="flex flex-col w-full">
@@ -171,7 +179,7 @@ function CartSection() {
                     </form>
                 </div>
             </Modal>
-            <Modal opened={isSuccessModalOpen} onClose={handleSuccessModalClose} centered>
+            <Modal open={isSuccessModalOpen} onClose={handleSuccessModalClose} center>
                 <div className="p-5">
                     <h2 className="text-xl font-bold mb-4">Purchase Successful</h2>
                     <p>Thank you for your purchase!</p>
