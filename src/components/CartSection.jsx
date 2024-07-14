@@ -11,18 +11,22 @@ function CartSection() {
     const dispatch = useDispatch();
     const [isConfirmModalOpen, setConfirmModalOpen] = useState(false);
     const [isSuccessModalOpen, setSuccessModalOpen] = useState(false);
+    
 
     const handlePurchase = () => {
+        console.log('Opening confirm modal');
         setConfirmModalOpen(true);
     };
 
     const handleConfirmPurchase = () => {
+        console.log('Confirming purchase');
         setConfirmModalOpen(false);
         setSuccessModalOpen(true);
         dispatch(clearCart());
     };
 
     const handleSuccessModalClose = () => {
+        console.log('Closing success modal');
         setSuccessModalOpen(false);
     };
 
@@ -117,9 +121,8 @@ function CartSection() {
                     )}
                 </div>
             </div>
-            <Modal open={isConfirmModalOpen} onClose={() => setConfirmModalOpen(false)} className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center">
-                
-                <div className="bg-[#F2F2F3] p-8 xl:px-12 md:px-10 px-8 rounded-md flex flex-col">
+            <Modal isOpen={isConfirmModalOpen} onClose={() => setConfirmModalOpen(false)} >
+                <div className="bg-[#F2F2F3] p-8 xl:px-12 md:px-10 px-8 rounded-md flex flex-col xl:w-[608px] lg:w-[600px] md:w-[400px] w-[390px] h-[980px]">
                     <button
                         className="absolute top-2 right-2 text-black text-xl"
                         onClick={() => setConfirmModalOpen(false)}
@@ -127,22 +130,18 @@ function CartSection() {
                         &times;
                     </button>
                     <h2 className="text-2xl font-bold mb-4">Payment</h2>
-                    <form className="space-y-4 flex flex-col xl:justify-start justify-center xl:items-start w-full items-center">
+                    <form className="space-y-4 flex flex-col xl:justify-start justify-center xl:items-start w-full items-center" >
                         <div className="flex flex-col w-full">
-                            <label htmlFor="email" className="font-OpenSans font-semibold">Email <span className="text-red-600">*</span></label>
-                            <input id="email" placeholder="Email" className="border rounded-md p-2" type="email" />
-                        </div>
-                        <div className="flex flex-col w-full">
-                            <label htmlFor="cardHolderName" className="font-OpenSans font-semibold">Card Holder’s Name <span className="text-red-600">*</span></label>
-                            <input id="cardHolderName" placeholder="Enter card holder’s name" className="border rounded-md p-2" type="text" />
+                            <label htmlFor="cardName" className="font-OpenSans font-semibold">Name on Card <span className="text-red-600">*</span></label>
+                            <input id="cardName" placeholder="Enter Name" className="border rounded-md p-2" type="text" />
                         </div>
                         <div className="flex flex-col w-full">
                             <label htmlFor="cardNumber" className="font-OpenSans font-semibold">Card Number <span className="text-red-600">*</span></label>
                             <input id="cardNumber" placeholder="0000 0000 0000 0000" className="border rounded-md p-2 " type="text" />
                         </div>
-                        <div className="flex flex-row xl:gap-10 justify-between items-center gap-5 w-full">
-                            <div className="flex flex-col xl:w-full w-[150px] ">
-                                <label htmlFor="expirationDate" className="font-OpenSans font-semibold sm:text-[14px]">Expiration Date <span className="text-red-600">*</span></label>
+                        <div className="flex flex-row gap-4 w-full">
+                            <div className="flex flex-col xl:w-full w-[150px]">
+                                <label htmlFor="expirationDate" className="font-OpenSans font-semibold">Expiration Date <span className="text-red-600">*</span></label>
                                 <input id="expirationDate" placeholder="14/04" className="border rounded-md p-2 " type="text" />
                             </div>
                             <div className="flex flex-col xl:w-full w-[150px] ">
@@ -179,11 +178,11 @@ function CartSection() {
                     </form>
                 </div>
             </Modal>
-            <Modal open={isSuccessModalOpen} onClose={handleSuccessModalClose} center>
-                <div className="p-5">
+            <Modal isOpen={isSuccessModalOpen} onClose={handleSuccessModalClose}>
+                <div className="p-5 xl:w-[450px] xl:w-[450px] lg:w-[450px] md:w-[450px] w-[350px] h-350px]">
                     <h2 className="text-xl font-bold mb-4">Purchase Successful</h2>
                     <p>Thank you for your purchase!</p>
-                    <div className="mt-5 flex justify-end">
+                    <div className="mt-5 flex justify-center">
                         <Button className="px-5 py-2 bg-blue-500 text-white rounded" onClick={handleSuccessModalClose}>
                             Close
                         </Button>
