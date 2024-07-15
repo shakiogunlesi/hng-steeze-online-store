@@ -11,26 +11,22 @@ function CartSection() {
     const dispatch = useDispatch();
     const [isConfirmModalOpen, setConfirmModalOpen] = useState(false);
     const [isSuccessModalOpen, setSuccessModalOpen] = useState(false);
-    
 
     const handlePurchase = () => {
-        console.log('Opening confirm modal');
         setConfirmModalOpen(true);
     };
 
     const handleConfirmPurchase = () => {
-        console.log('Confirming purchase');
         setConfirmModalOpen(false);
         setSuccessModalOpen(true);
         dispatch(clearCart());
     };
 
     const handleSuccessModalClose = () => {
-        console.log('Closing success modal');
         setSuccessModalOpen(false);
     };
 
-    const totalAmount = cartItems.reduce((total, item) => total + item.price * item.quantity, 0);
+    const totalAmount = cartItems.reduce((total, item) => total + (item.current_price[0]?.USD[0] || 0) * item.quantity, 0);
 
     return (
         <div className="flex flex-col mx-auto justify-start items-start my-20 overflow-hidden">
@@ -49,10 +45,10 @@ function CartSection() {
                         <p className="text-gray-500">Your cart is empty.</p>
                     ) : (
                         <div className="cart-items">
-                            {cartItems.map((item) => (
+                            {cartItems.map(item => (
                                 <div key={item.id} className="cart-item flex justify-between items-center mb-3 border-b">
                                     <div className="cart-item-info relative w-full flex flex-col md:flex-row xl:justify xl:items-end md:items-end sm:items-start xl:gap-6 border border-gray-300 shadow-md rounded-xl md:px-20 md:py-5 px-2 py-2 mt-4">
-                                        <img src={item.image} alt={item.name} className="md:w-[250px] md:h-[234px] w-[350px] h-[300px] object-cover rounded-md" />
+                                        <img src={`https://api.timbu.cloud/images/${item?.photos[0]?.url}`} height={160} alt={item.name} className="md:w-[250px] md:h-[234px] w-[350px] h-[300px] object-cover rounded-md" />
                                         <button
                                             className="absolute top-2 left-2 bg-white rounded-full px-2 py-1 text-black text-[12px]"
                                             onClick={() => dispatch(removeFromCart({ id: item.id }))}  // Correct payload structure
@@ -62,7 +58,7 @@ function CartSection() {
                                         <div className="md:ml-12 md:mr-16 ml-2 mr-2 text-left md:w-[350px]">
                                             <h2 className="text-[28px] font-[600] leading-[33.6px] mb-4">{item.name}</h2>
                                             <p className="text-gray-600 text-[18px] font-[400] leading-[21.6px] mb-4">Eligible for free shipping</p>
-                                            <p className="text-gray-600 text-[18px] font-[400] leading-[21.6px] mb-4"><span className='text-gray-500'>Price:</span> ${item.price}</p>
+                                            <p className="text-gray-600 text-[18px] font-[400] leading-[21.6px] mb-4"><span className='text-gray-500'>Price:</span> ${item.current_price[0]?.USD[0]}</p>
                                             <p className="text-gray-600 text-[18px] font-[400] leading-[21.6px] mb-4">Quantity</p>
                                             <div className="flex items-center mt-2">
                                                 <button
@@ -82,7 +78,7 @@ function CartSection() {
                                         </div>
                                         <div>
                                             <p className='text-[18px] font-[400] leading-[21.6px] text-gray-500 text-left mt-4'>Subtotal:</p>
-                                            <p className="text-[28px] font-[600] leading-[33.6px]">${(item.price * item.quantity).toFixed(2)}</p>
+                                            <p className="text-[28px] font-[600] leading-[33.6px]">${(item.current_price[0]?.USD[0] * item.quantity).toFixed(2)}</p>
                                         </div>
                                     </div>
                                 </div>
